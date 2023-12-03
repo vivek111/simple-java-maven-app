@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Final') {
             steps {
-                echo 'Final Stage done'
+                echo 'Final Stage done, signing off'
             }
         }
     }
