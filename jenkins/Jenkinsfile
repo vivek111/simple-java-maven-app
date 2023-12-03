@@ -18,8 +18,9 @@ pipeline {
         }
         stage('Final') {
             steps {
-                echo 'Final Stage done, signing off'
+                echo 'Final Stage done, signing off from feature branch'
             }
         }
+        
     }
 }
