@@ -16,6 +16,11 @@ pipeline {
                 }
             }
         }
+        stage('Print Message') {
+            steps {
+                echo 'Printing the message stage'
+            }
+        }
         stage('Final') {
             steps {
                 echo 'Final Stage done, signing off'
